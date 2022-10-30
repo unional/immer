@@ -1,5 +1,3 @@
-This is a stop-gap release of `immer` as `@unional/immer`. Please use `immer` when possible.
-
 <img src="images/immer-logo.svg" height="200px" align="right"/>
 
 # Immer
