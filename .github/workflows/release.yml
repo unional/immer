@@ -24,7 +24,8 @@ jobs:
         run: yarn build
       - name: publish
         # avoid release on fork
-        if: github.repository == 'immerjs/immer'
+        # override to release `@unional/immer` as stop-gap
+        if: github.repository == 'unional/immer'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
